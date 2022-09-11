@@ -1,0 +1,140 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (title_block
+    (title "Multirotor ESC Board")
+    (date "2022-09-10")
+    (rev "v0.0.1")
+    (company "Thomas Francois & Missouri S&T Multirotor Design Team")
+    (comment 1 "Demonstration of example ESC board")
+    (comment 2 "Based upon Phil's Lab Video Demonstration")
+    (comment 3 "ESC Hardware Design (1/2) - Phil's Lab #66")
+    (comment 4 "https://www.youtube.com/watch?v=dJjxcjJOlN0")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 71.12 66.04) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6925d0aa-6a6d-48e8-beb5-c68f11da7a23)
+    (property "Sheet name" "Voltage Regulation" (id 0) (at 71.12 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "voltage_regulation.kicad_sch" (id 1) (at 71.12 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "VBAT_SENSE" input (at 71.12 71.755 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e8031db7-e536-4031-83fb-53194349747b)
+    )
+  )
+
+  (sheet (at 135.89 69.85) (size 29.21 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97e0d8f2-3fb5-4132-bc5b-5e7a03ef2bdb)
+    (property "Sheet name" "Inverter - A" (id 0) (at 135.89 69.1384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Inverter.kicad_sch" (id 1) (at 135.89 94.5646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 19.05 67.31) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d8b35fe4-23aa-409b-9f2d-bafdb5c36624)
+    (property "Sheet name" "Battery Cells" (id 0) (at 19.05 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Battery Cells.kicad_sch" (id 1) (at 19.05 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23" (page "2"))
+    (path "/d8b35fe4-23aa-409b-9f2d-bafdb5c36624" (page "3"))
+    (path "/97e0d8f2-3fb5-4132-bc5b-5e7a03ef2bdb" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/0eb90cc5-f66c-4f19-ba6a-e2176817090f"
+      (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/727fd17b-2514-45b6-a580-bec774717ec9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/79b383d2-e8a1-4b4c-82bd-765b06d81015"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/85cd5e71-85f9-4de5-8932-1cc1a8428f8e"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/666b110b-64b3-4b1b-b648-8cefb6eb0bcb"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/70806d58-ce83-42ce-b2da-14f49e4e425a"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/7d444e59-e85f-4b36-a7ee-89b1c2dc2bc1"
+      (reference "C?") (unit 1) (value "47uF") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/7f018784-9df3-41a8-a771-7183d616fcb0"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/e44df006-a55a-47e0-86b1-17debb1f8182"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/faa19c80-fdcc-438c-86e7-c0c9f62bab01"
+      (reference "C?") (unit 1) (value "47μF") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/01f64d8b-59c7-4a7f-94f6-b02257389ed7"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/af026ffe-ca2f-412b-8e63-3ecf96ad32af"
+      (reference "D?") (unit 1) (value "D_TVS") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/8a5509b7-df50-458c-a10b-aad8f0d2d9b8"
+      (reference "L?") (unit 1) (value "22μF") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/8a7816dd-ad4b-4756-803b-e2304c18fa5d"
+      (reference "L?") (unit 1) (value "120R") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/248ead7f-752e-40c0-bb8c-4be19db10e0d"
+      (reference "R?") (unit 1) (value "75kΩ") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/30884663-b4d1-4804-b0f3-0861de72726b"
+      (reference "R?") (unit 1) (value "1kΩ") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/349c6f0d-aa9d-4cf2-b2b5-a2f4c06ccf7c"
+      (reference "R?") (unit 1) (value "110kΩ") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/690f7831-bbd0-434d-9bf7-2f33f2b678b2"
+      (reference "R?") (unit 1) (value "12kΩ") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/a3d707a5-227e-4aa8-81b8-2cb5c76b6de6"
+      (reference "R?") (unit 1) (value "1kΩ") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/dbf9d707-36a7-44c9-8154-2c0ba309d498"
+      (reference "R?") (unit 1) (value "24kΩ") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/fe9632fd-6344-4254-bb7c-69d57a7190da"
+      (reference "R?") (unit 1) (value "4.7kΩ") (footprint "")
+    )
+    (path "/6925d0aa-6a6d-48e8-beb5-c68f11da7a23/c13cf85f-c98f-45ba-8820-17fab98a6470"
+      (reference "U?") (unit 1) (value "TP6841S-A") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
+    )
+    (path "/97e0d8f2-3fb5-4132-bc5b-5e7a03ef2bdb/fc791f38-232c-40d2-aadb-e9c29f29afdd"
+      (reference "U?") (unit 1) (value "IR2103") (footprint "")
+    )
+  )
+)
