@@ -1254,7 +1254,7 @@
     (property "Reference" "C?" (id 0) (at 133.731 72.7515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47uF" (id 1) (at 133.731 75.5266 0)
+    (property "Value" "47μF" (id 1) (at 133.731 75.5266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 131.7752 77.47 0)
