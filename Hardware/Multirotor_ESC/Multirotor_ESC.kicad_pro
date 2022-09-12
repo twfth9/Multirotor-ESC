@@ -332,6 +332,18 @@
     [
       "97e0d8f2-3fb5-4132-bc5b-5e7a03ef2bdb",
       "Inverter - A"
+    ],
+    [
+      "ccfb1553-b82e-4f5c-9236-af4296f19654",
+      "Inverter - B"
+    ],
+    [
+      "fcaf618e-ca1c-4d98-b5f3-a42a335a4398",
+      "Inverter - C"
+    ],
+    [
+      "d49eb7b6-9a18-4931-9c99-b7c49b1307ed",
+      "Microcontroller"
     ]
   ],
   "text_variables": {}
