@@ -18,4 +18,13 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "+Battery" (shape output) (at 97.155 86.995 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 07630699-364b-422d-ab6d-16a4fdad148f)
+  )
+  (hierarchical_label "-Battery" (shape output) (at 97.155 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid cae10ba6-0d4e-4b9b-88ad-e3a7c079e20b)
+  )
 )
