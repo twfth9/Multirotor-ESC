@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Multirotor ESC Board")
+    (date "2022-09-12")
+    (rev "v0.0.1")
+    (company "Thomas Francois & Missouri S&T Multirotor Design Team")
+    (comment 1 "Demonstration of example ESC board")
+    (comment 2 "Based upon Phil's Lab Video Demonstration")
+    (comment 3 "ESC Hardware Design (1/2) - Phil's Lab #66")
+    (comment 4 "https://www.youtube.com/watch?v=dJjxcjJOlN0")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)

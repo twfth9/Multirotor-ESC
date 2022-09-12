@@ -4,6 +4,17 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Multirotor ESC Board - AC Half Bridge Inverter")
+    (date "2022-09-12")
+    (rev "v0.0.1")
+    (company "Thomas Francois & Missouri S&T Multirotor Design Team")
+    (comment 1 "Demonstration of example ESC board")
+    (comment 2 "Based upon Phil's Lab Video Demonstration")
+    (comment 3 "ESC Hardware Design (1/2) - Phil's Lab #66")
+    (comment 4 "https://www.youtube.com/watch?v=dJjxcjJOlN0")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Current:INA169" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 3.81 5.08 0)
@@ -1125,7 +1136,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 68c2ccbf-b1dc-478d-8fe3-6bf824c91e2d)
   )
-  (text "AC Inverter - Single Phase" (at 33.655 48.26 0)
+  (text "AC Half-Bridge Inverter - Single Phase" (at 33.655 48.26 0)
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid 865b9f34-1152-40f3-9802-ec872fb9fe12)
   )
